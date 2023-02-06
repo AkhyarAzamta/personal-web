@@ -1,0 +1,22 @@
+{
+  "name": "personal-web",
+  "version": "1.0.0",
+  "description": "my personal web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./src/css/style.css --watch",
+    "done": "npx tailwindcss -o ./src/css/final.css --minify"
+  },
+  "keywords": [
+    "personal",
+    "web",
+    "akhyar",
+    "azamta"
+  ],
+  "author": "Ervan Akhyar Azamta",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
